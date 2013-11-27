@@ -16,3 +16,25 @@
 *.exe
 *.out
 *.app
+
+
+# Visual Studio specific ignore files
+*.suo
+
+bin/
+obj/
+
+*.user
+
+# LLVMSharp Specific ignore files
+*.Parser.cs*
+*.Scanner.cs*
+
+TestResults/
+
+_ReSharper.*/
+
+
+
+*.swp
+*.orig
